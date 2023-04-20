@@ -1,0 +1,47 @@
+---
+import Header from '../components/Header.astro';
+import '../styles/globals.css';
+import HeroLayout from '../layouts/HeroLayout.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Header />
+<HeroLayout heading='About Us' subtext='Get to know us' />
+<main class='w-4/5 mx-auto flex gap-8 mb-16'>
+  <div class=''>
+    <img src='../images/image-2.jpg' alt='Image of workers' />
+  </div>
+  <section class='flex flex-col gap-4 text-lg'>
+    <h2 class='text-2xl'>NetSpan: Redefining Horizons</h2>
+    <p class=''>
+      Welcome to our website! We are a team of passionate individuals dedicated
+      to providing high-quality products and exceptional customer service. Our
+      company was founded in [year], and since then we have grown to become one
+      of the leading providers in our industry.
+    </p>
+
+    <p class=''>
+      We are a customer driven, high performance company, powered by skilled
+      certified professionals,
+    </p>
+
+    <p class=''>
+      Netspan Tech was established with the concept of providing professional &
+      effective wired/wireless voice and data solutions.
+    </p>
+
+    <p class='mb-4'>
+      Thank you for choosing us as your preferred provider. We look forward to
+      serving you!
+    </p>
+    <div class=''>
+      <a
+        href='/'
+        class='py-4 px-12 bg-sky-600 text-white hover:bg-orange-600 transition-all'
+        >Get Started</a
+      >
+    </div>
+  </section>
+</main>
+
+<Footer />

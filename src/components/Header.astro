@@ -1,0 +1,56 @@
+---
+import Modal from './Modal.astro';
+---
+
+<script src='../scripts/script.js'></script>
+<Modal />
+<header id='header' class='flex justify-center text-xl py-8 items-center'>
+  <section class='flex justify-between w-4/5 items-center'>
+    <a href='/' class='block logo w-[200px]'>
+      <img src='../images/logo.png' class='inline-block' />
+    </a>
+    <nav
+      class='xl:hidden xl:invisible xl:pointer-events-none block pointer-events-auto visible'
+    >
+      <ul class='flex gap-8'>
+        <li><a href='/' class='link hover:text-orange-600'>Home</a></li>
+        <li>
+          <a href='/products' class='link hover:text-orange-600'>Products</a>
+        </li>
+        <li>
+          <a href='/services' class='link hover:text-orange-600'>Services</a>
+        </li>
+        <li>
+          <a href='/about' class='link hover:text-orange-600'>About Us</a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      class='more-info xl:hidden xl:invisible xl:pointer-events-none block pointer-events-auto visible'
+    >
+      <a
+        href='/about'
+        class='py-4 px-12 bg-sky-600 hover:bg-orange-600 transition-all text-white'
+        >Contact Us</a
+      >
+    </div>
+    <button
+      class='hidden flex-col items-center justify-center invisible pointer-events-none xl:flex xl:visible xl:pointer-events-auto show-modal w-12 h-12 rounded-full bg-sky-600 text-white'
+    >
+      <svg
+        fill='none'
+        stroke='currentColor'
+        stroke-width='1.5'
+        class='w-6 h-6'
+        viewBox='0 0 24 24'
+        xmlns='http://www.w3.org/2000/svg'
+        aria-hidden='true'
+      >
+        <path
+          stroke-linecap='round'
+          stroke-linejoin='round'
+          d='M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5'></path>
+      </svg>
+    </button>
+  </section>
+</header>
