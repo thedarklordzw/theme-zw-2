@@ -5,9 +5,9 @@ import '../styles/globals.css';
 <div
   class='modal fixed hidden invisible pointer-events-none left-0 top-0 w-full h-full'
 >
-  <div class='w-4/5 h-4/5 content p-8 border rounded relative'>
+  <div class='w-full h-full content p-8 border rounded relative'>
     <button
-      class='close w-8 h-8 rounded-full flex items-center justify-center absolute top-4 right-4'
+      class='close w-12 h-12 bg-orange-600 text-white rounded-full flex items-center justify-center absolute top-12 right-28'
       ><svg
         fill='none'
         stroke='currentColor'
@@ -15,6 +15,7 @@ import '../styles/globals.css';
         viewBox='0 0 24 24'
         xmlns='http://www.w3.org/2000/svg'
         aria-hidden='true'
+        class='w-6 h-6'
       >
         <path
           stroke-linecap='round'
@@ -24,7 +25,7 @@ import '../styles/globals.css';
     >
     <menu class='flex items-center justify-center h-full'>
       <nav>
-        <ul class='flex flex-col gap-8 text-lg'>
+        <ul class='flex flex-col justify-between gap-20 text-4xl w-full h-full'>
           <li><a href='/'>Home</a></li>
           <li><a href='/products'>Products</a></li>
           <li><a href='/services'>Services</a></li>

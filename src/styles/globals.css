@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -21,8 +20,8 @@ body {
   /* font-family: 'Rajdhani', sans-serif; */
 
   color: #f5f7fa;
-  background-color: #363e4d;
-  /* color: #737780; */
+  background-color: #d9e6ff;
+  color: #212226;
 }
 
 img {
@@ -88,16 +87,20 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(115, 119, 128, 0.9);
+  background-color: rgba(31, 41, 77, 0.9);
   overflow: auto;
   z-index: 10;
 }
 
 .content {
-  background-color: #e6edfa;
-  color: #737780;
+  color: #e6edfa;
+  background-color: #1f2f4d;
 }
 
 .products-box > * {
+  cursor: pointer;
+}
+
+.services > * {
   cursor: pointer;
 }

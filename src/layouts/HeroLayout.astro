@@ -2,17 +2,19 @@
 const { heading, subtext } = Astro.props;
 ---
 
-<section id='hero' class='relative h-1/2 mb-12'>
-  <div class=''>
-    <img src='../images/hero.webp' alt='Hero Image' class='rounded-none' />
+<section id='hero' class='relative mb-24'>
+  <div class='w-full'>
+    <img
+      src='../images/hero.webp'
+      alt='Hero Image'
+      class='rounded-none h-[50vh] w-full object-cover'
+    />
   </div>
-  <div
-    class='absolute top-1/3 left text-white translate-x-[-33%] translate-y-[-33%]'
-  >
-    <h1 class='text-8xl font-extrabold mb-2 xxl:text-6xl xl:text-5xl'>
+  <div class='absolute top-16 left-[10%] text-white w-full'>
+    <h1 class='text-6xl font-extrabold mb-2 xxl:text-6xl xl:text-5xl'>
       {heading}
     </h1>
-    <p class='text-2xl mb-8 w-2/3 xl:text-xl xl:w-4/5'>
+    <p class='text-2xl mb-8 w-full xl:text-xl'>
       {subtext}
     </p>
   </div>
