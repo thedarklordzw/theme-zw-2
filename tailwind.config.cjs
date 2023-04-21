@@ -27,6 +27,12 @@ module.exports = {
       backgroundImage: {
         hero: "url('../images/hero.webp')",
       },
+
+      colors: {
+        'dark-grey': '#212226',
+        'medium-grey': '#363940',
+        'light-grey': '#626773',
+      },
     },
   },
   plugins: [],
