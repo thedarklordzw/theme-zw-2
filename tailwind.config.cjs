@@ -26,6 +26,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('../images/hero.webp')",
+        small: "url('../images/hero-small.webp)",
       },
 
       colors: {
