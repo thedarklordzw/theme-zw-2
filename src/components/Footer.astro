@@ -1,21 +1,23 @@
 <footer
   id='footer'
-  class='flex w-4/5 justify-between mx-auto items-start gap-20 py-8 xxl:gap-16 lg:items-center xl:gap-8'
+  class='flex w-4/5 justify-between mx-auto items-start gap-20 py-8 xxl:gap-16 xl:justify-start xl:gap-20 lg:items-center'
 >
   <div class=''>
-    <a href='/' class='block logo w-[200px]'>
-      <img src='../images/logo.png' class='min-w-[100px]' alt='' />
+    <a href='/' class='block logo w-[300px]'>
+      <img src='../images/logo.png' class='inline-block' />
     </a>
-    <ul class='font-semibold'>
+    <ul class='font-semibold lg:hidden'>
       <li>
         <p>+263 773 275 941</p>
       </li>
       <li><p>sales@netspan.co.zw</p></li>
     </ul>
   </div>
-  <div class='flex justify-between'>
+  <div class='flex justify-between gap-2 xl:gap-16 xl:justify-start flex-wrap'>
     <div class=''>
-      <h2 class='font-semibold text-3xl mb-2 lg:text-xl'>Services</h2>
+      <a href='/services' class='font-semibold text-3xl mb-2 lg:text-xl'
+        >Services</a
+      >
       <ul
         class='text-base flex flex-col gap-2 lg:hidden lg:invisible lg:pointer-events-none'
       >
@@ -25,7 +27,9 @@
       </ul>
     </div>
     <div class=''>
-      <h2 class='font-semibold text-3xl mb-2 lg:text-xl'>Our Offices</h2>
+      <a href='/about' class='font-semibold text-3xl mb-2 lg:text-xl'
+        >Our Offices</a
+      >
       <ul
         class='text-base flex flex-col gap-1 lg:hidden lg:invisible lg:pointer-events-none'
       >
@@ -42,10 +46,10 @@
         </li>
       </ul>
     </div>
-    <div
-      class='block basis-1/5 xl:basis-auto xl:hidden xl:invisible xl:pointer-events-none'
-    >
-      <h2 class='font-semibold text-3xl mb-2 lg:text-xl'>Newsletter</h2>
+    <div class='block basis-1/5 xl:basis-auto'>
+      <a href='/services' class='font-semibold text-3xl mb-2 lg:text-xl'
+        >Newsletter</a
+      >
       <ul class='text-base lg:hidden lg:invisible lg:pointer-events-none'>
         <li class='mb-4'>
           <p class='text-base'>
